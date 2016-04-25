@@ -259,8 +259,6 @@
 <wire x1="2" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="2" width="0.2032" layer="21"/>
 <wire x1="0" y1="33.5" x2="0" y2="35.5" width="0.2032" layer="21"/>
-<rectangle x1="0" y1="22.39" x2="5.78" y2="35.5" layer="39" rot="R180"/>
-<rectangle x1="0" y1="22.39" x2="5.78" y2="35.5" layer="40" rot="R180"/>
 <text x="0.616" y="34.992" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">&gt;NAME</text>
 <hole x="23.53" y="30.67" drill="2"/>
 <hole x="2.93" y="1.98" drill="2"/>
@@ -941,80 +939,83 @@
 <library name="kinetic">
 <packages>
 <package name="RIBBON_CONN_70_POS">
-<description>70-pin through-hole, 0.050" pitch</description>
-<pad name="P$1" x="-21.59" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$2" x="-21.59" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$3" x="-20.32" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$4" x="-20.32" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$5" x="-19.05" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$6" x="-19.05" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$7" x="-17.78" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$8" x="-17.78" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$9" x="-16.51" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$10" x="-16.51" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$11" x="-15.24" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$12" x="-15.24" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$13" x="-13.97" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$14" x="-13.97" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$15" x="-12.7" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$16" x="-12.7" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$17" x="-11.43" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$18" x="-11.43" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$19" x="-10.16" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$20" x="-10.16" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$21" x="-8.89" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$22" x="-8.89" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$23" x="-7.62" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$24" x="-7.62" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$25" x="-6.35" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$26" x="-6.35" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$27" x="-5.08" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$28" x="-5.08" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$29" x="-3.81" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$30" x="-3.81" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$31" x="-2.54" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$32" x="-2.54" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$33" x="-1.27" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$34" x="-1.27" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$35" x="0" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$36" x="0" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$37" x="1.27" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$38" x="1.27" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$39" x="2.54" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$40" x="2.54" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$41" x="3.81" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$42" x="3.81" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$43" x="5.08" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$44" x="5.08" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$45" x="6.35" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$46" x="6.35" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$47" x="7.62" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$48" x="7.62" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$49" x="8.89" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$50" x="8.89" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$51" x="10.16" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$52" x="10.16" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$53" x="11.43" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$54" x="11.43" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$55" x="12.7" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$56" x="12.7" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$57" x="13.97" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$58" x="13.97" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$59" x="15.24" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$60" x="15.24" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$61" x="16.51" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$62" x="16.51" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$63" x="17.78" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$64" x="17.78" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$65" x="19.05" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$66" x="19.05" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$67" x="20.32" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$68" x="20.32" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$69" x="21.59" y="1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$70" x="21.59" y="-1.27" drill="0.5588" diameter="0.8128" shape="long" rot="R90"/>
+<description>68-pin through-hole, 0.050" pitch. Made from 70-pin connector; deleted NC pins 29 and 38 to preserve existing nets.</description>
+<pad name="P$1" x="0" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$2" x="-1.27" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$3" x="1.27" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$4" x="-2.54" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$5" x="2.54" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$6" x="-3.81" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$7" x="3.81" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$8" x="-5.08" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$9" x="5.08" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$10" x="-6.35" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$11" x="6.35" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$12" x="-7.62" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$13" x="7.62" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$14" x="-8.89" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$15" x="8.89" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$16" x="-10.16" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$17" x="10.16" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$18" x="-11.43" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$19" x="11.43" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$20" x="-12.7" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$21" x="12.7" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$22" x="-13.97" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$23" x="13.97" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$24" x="-15.24" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$25" x="15.24" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$26" x="-16.51" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$27" x="16.51" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$28" x="-17.78" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$30" x="-19.05" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$31" x="17.78" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$32" x="-20.32" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$33" x="19.05" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$34" x="-21.59" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$35" x="20.32" y="-1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$36" x="-21.59" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$37" x="20.32" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$39" x="19.05" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$40" x="-20.32" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$41" x="17.78" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$42" x="-19.05" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$43" x="16.51" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$44" x="-17.78" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$45" x="15.24" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$46" x="-16.51" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$47" x="13.97" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$48" x="-15.24" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$49" x="12.7" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$50" x="-13.97" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$51" x="11.43" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$52" x="-12.7" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$53" x="10.16" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$54" x="-11.43" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$55" x="8.89" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$56" x="-10.16" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$57" x="7.62" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$58" x="-8.89" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$59" x="6.35" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$60" x="-7.62" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$61" x="5.08" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$62" x="-6.35" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$63" x="3.81" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$64" x="-5.08" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$65" x="2.54" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$66" x="-3.81" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$67" x="1.27" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$68" x="-2.54" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$69" x="0" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
+<pad name="P$70" x="-1.27" y="1.27" drill="0.5588" diameter="1.016" rot="R90"/>
 <wire x1="-21.59" y1="3.81" x2="-24.13" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-24.13" y1="3.81" x2="-24.13" y2="1.27" width="0.127" layer="21"/>
 <text x="-24.13" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-5.08" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
